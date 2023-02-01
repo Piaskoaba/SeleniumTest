@@ -6,17 +6,43 @@ public class Test1 {
 
     @Test
     public void demoTest() {
-        byte number;
-        number = 8;
 
-        int intNumber=21;
-        long longNumber = 123456L;
-        float floatNumber = 123.67F;
-        double doubleNumber = 888.63;
-        boolean isTrue = false;
-        char letterA = 'a';
-        char alsoLetterA = '\u0061';
-        System.out.println(letterA);
-        String text ="Moja ulubiona książka to \"Władca Pierścieni\""; //Moja ulubiona książka to "Władca Pierścieni";
+
+        int pierwszaZmienna = 2;
+        int drugaZmienna = 4;
+        int trzeciaZmienna = 2;
+
+        boolean warunek = pierwszaZmienna == trzeciaZmienna;
+        boolean warunek2 = 2==2;
+        boolean warunek3 = pierwszaZmienna != trzeciaZmienna;
+
+        boolean warunek4 = pierwszaZmienna < drugaZmienna;
+        boolean warunek5 = pierwszaZmienna > trzeciaZmienna;
+        boolean warunek6 = pierwszaZmienna <= trzeciaZmienna;
+        boolean warunek7 = pierwszaZmienna >= trzeciaZmienna;
+
+        boolean prawda =true;
+        boolean falsz = false;
+
+        boolean warunek8 = !prawda;
+        boolean warunek9 = falsz && prawda; //koniunkcja
+        boolean warunek10 = falsz || prawda; //alternatywa
+        boolean warunek11 = falsz == prawda;
+        boolean warunek12 = falsz != prawda;
+
+        String pierwszaCzesc = "Na sniadanie";
+        String drugaCzesc = " zjadłem dzisiaj";
+        String trzeciaCzesc = "jajecnzice";
+
+        String text = pierwszaCzesc + drugaCzesc + trzeciaCzesc;
+        int liczba = 123;
+
+        String textLiczba = text + liczba;
+        boolean jablko = false;
+
+        String textBoolean = text + jablko;
     }
+
+
+
 }
