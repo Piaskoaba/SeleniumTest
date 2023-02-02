@@ -9,13 +9,32 @@ public class Metody {
         String tekst = " Pola trapezów to: " + poleT1+ "," + poleT2 + ",";
         System.out.print(tekst);
     }
-
+//metoda obliczeniowa przyjmujaca argumenty
     double obliczPole (double dlugoscPodstawy, double szerokoscPodstawy, double wyskosc){
 
             double poleTrapezu = ((dlugoscPodstawy+szerokoscPodstawy) * wyskosc) / 2;
             return poleTrapezu;
 
         }
+        @Test
+        public void exaplle22(){
+        wysokoscSkoku();
+        }
+        //metoda z danymi statycznymi - nie przyjmuje argumentow
+        double wysokoscSkoku () {
+        double silaWybicia = (1.34*2.23);
+        double odleglsoc = 3.33;
+        double x = silaWybicia*odleglsoc;
+            System.out.print(x);
+        return x;
+
+
+        }
+
+
     }
+
+
+
 
 
