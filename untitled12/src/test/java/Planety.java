@@ -43,7 +43,7 @@ String osmaPlaneta= planety[8];
 
     @Test
     public void example4(){
-        int[][] sredniaPlanet = {{1,1234},{2,2345},{3,3214}}; //[][] deklarowanekol/wier
+        int[][] sredniaPlanet = {{1,1234},{2,2345},{3,3214}}; //[][] deklarowane kol/wier
 
     }
 
