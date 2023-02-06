@@ -13,7 +13,7 @@ public void productPriceTest(){
 
 
    HomePage homePage = new HomePage();
-   homePage.searchForProduct();
+
 }
 
 }

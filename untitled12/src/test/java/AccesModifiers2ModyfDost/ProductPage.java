@@ -1,7 +1,8 @@
-package AccesModifiersDziedziczenie;
+package AccesModifiers2ModyfDost;
 
-public class ProductPage extends BasePage{   //extends - dziedziczenie - rozszeza klase BasePage
-    // mozna dziedziczyc tylko po jednej klasie
+import AccesModifiersDziedziczenie.BasePage;
+
+public class ProductPage extends BasePage {
 
     public String ProductName;
     public String productPrice;
@@ -10,6 +11,4 @@ public class ProductPage extends BasePage{   //extends - dziedziczenie - rozszez
         BasePage basePage = new BasePage();
         basePage.searchForProduct(" product: ");
         System.out.println(" Product added to cart ");
-    }
 }
-

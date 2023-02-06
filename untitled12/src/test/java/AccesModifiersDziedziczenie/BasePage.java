@@ -2,15 +2,18 @@ package AccesModifiersDziedziczenie;
 
 public class BasePage{
 
-    String title;
-    String url;
-    String userName;
+    public String title;
+    public String url;
+    public String userName;
 
-    void goTo(String pageUrl) {
+    public BasePage{}
+
+    public void goTo(String pageUrl) {
         System.out.println("Going to page: ");
     }
-    void searchForProduct(String product){
+    public void searchForProduct(String product){
 
     System.out.println("Searching for product" + product);
+    System.out.println(" url ");
     }
 }
