@@ -6,7 +6,7 @@ public class BasePage{
     public String url;
     public String userName;
 
-    public BasePage{}
+     //  public BasePage{}
 
     public void goTo(String pageUrl) {
         System.out.println("Going to page: ");

@@ -8,8 +8,8 @@ public class Tests {
         public void gettersAndSettersTest(){
 
             Customer customer = new Customer();
-            customer.setAge(-15);
-            //System.out.println(customer.age);
+            customer.setAge(15);
+            System.out.println(customer.getAge());
 
         }
 }
