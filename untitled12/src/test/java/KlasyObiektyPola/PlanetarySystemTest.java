@@ -6,7 +6,7 @@ public class PlanetarySystemTest {
 
     @Test
     public void firstTest() {
-        PlanetarySystem solarSystem = new PlanetarySystem();
+        PlanetarySystem solarSystem = new PlanetarySystem(); // new - tworzy obiekt danej klasy
         solarSystem.printNumberOfPlanets();
         solarSystem.setNumberOfPlanets(7);     //set - zmienia liczbe obiektow
         solarSystem.printNumberOfPlanets();

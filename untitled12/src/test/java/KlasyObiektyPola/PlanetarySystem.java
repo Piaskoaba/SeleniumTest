@@ -18,7 +18,6 @@ public class PlanetarySystem {
     }
     public void printNumberOfPlanets(){
 
-
         System.out.println(" Number of planets: " + NumberOfPlanets);
     }
 
