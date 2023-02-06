@@ -32,7 +32,7 @@ public class PetlaForForEach {
         String tekst = "Rasy w WoW to: ";
 
         for (String rasa : rasy) {                            // dla kazdego elementu z tablicy rasy
-            tekst = tekst + "\n" + rasa;                   // "\n" - znak nowej linii
+            tekst = tekst + "\n" + rasy;                   // "\n" - znak nowej linii
 
         }
         System.out.println(tekst);
