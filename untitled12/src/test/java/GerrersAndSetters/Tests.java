@@ -22,11 +22,16 @@ public class Tests {
         Customer customer = new Customer();
         Address address = new Address("Kraków", "Fiołkowa", "15/22");
         customer.setAddress(address);
-        System.out.print("Adres: "+
+        System.out.println("Adres: "+
         customer.getAddress().getStreet() + " " +
         customer.getAddress().getApartment() + " " +
         customer.getAddress().getCity());
 
+        address.setCity("Gdańsk");
+        System.out.println("Adres: " +
+             customer.getAddress().getStreet() + " " +
+             customer.getAddress().getApartment() + " " +
+             customer.getAddress().getCity());
     }
 }
 
