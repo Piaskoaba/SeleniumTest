@@ -20,7 +20,7 @@ public class Tests {
     public void gettersAndSettersTestObjectsTest() {
 
         Customer customer = new Customer();
-        Address address = new Address("Kraków", "Fiołkowa", "15/22");
+        Address address = new Address("Kraków", "Fiołkowa", "15/22", "62-510");
         customer.setAddress(address);
         System.out.println("Adres: "+
         customer.getAddress().getStreet() + " " +

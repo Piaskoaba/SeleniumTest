@@ -1,15 +1,23 @@
 package AccesModifiersDziedziczenie;
 
-public class ProductPage extends BasePage{   //extends - dziedziczenie - rozszeza klase BasePage
+public class ProductPage extends BasePage {   //extends - dziedziczenie - rozszeza klase BasePage
     // mozna dziedziczyc tylko po jednej klasie
 
     public String ProductName;
     public String productPrice;
 
-    protected void addToCart(){
-        BasePage basePage = new BasePage();
-        basePage.searchForProduct(" product: ");
-        System.out.println(" Product added to cart ");
+    protected ProductPage addToCart() {
+        System.out.println("Produkt dodany do ksozkya");
+        return null;
+    }
+
+    protected ProductPage setAmount(int amount) {
+        System.out.println("Wybrano ilość: " + amount);
+        return this;
+    }
+
+    protected void goToCart() {
+        System.out.println(" Przejscie do koszyka");
+
     }
 }
-
