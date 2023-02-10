@@ -11,9 +11,9 @@ public class AstronomicalObject {
     }
 
     public AstronomicalObject(String name, int orbitalPeriodInDays, float radius) {
-        this.name;
-        this.orbitalPeriodInDays;
-        this.radius;
+        String name1 = this.name;
+        int orbitalPeriodInDays1 = this.orbitalPeriodInDays;
+        float radius1 = this.radius;
 
     }
 

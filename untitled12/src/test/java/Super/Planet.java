@@ -8,7 +8,7 @@ public class Planet extends  AstronomicalObject{
 
 
     public Planet (String name){
-        super(name) // super jest odniesieniem do konstruktora klasy nadrzednej, ZAWSZE na poczatku
+        super(name); // super jest odniesieniem do konstruktora klasy nadrzednej, ZAWSZE na poczatku
     }
     public Planet(String name, int orbitalPeriodInDays, float radius, boolean hasRings) {
         super(name, orbitalPeriodInDays, radius);
@@ -16,7 +16,7 @@ public class Planet extends  AstronomicalObject{
     }
 
     public Planet(int mass){
-        this.mass - mass;
+        int i = this.mass - mass;
 
     }
 @Override

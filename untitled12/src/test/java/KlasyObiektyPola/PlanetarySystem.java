@@ -11,11 +11,10 @@ public class PlanetarySystem {
 
     public void setNumberOfPlanets (int number) {
     NumberOfPlanets = number;
+    }
 
-    }
-    public int getNumberOfPlanets() {
-        return NumberOfPlanets;
-    }
+    public int getNumberOfPlanets(){return NumberOfPlanets;}
+
     public void printNumberOfPlanets(){
 
         System.out.println(" Number of planets: " + NumberOfPlanets);
