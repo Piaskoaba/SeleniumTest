@@ -16,23 +16,12 @@ public class Metody {
             return poleTrapezu;
 
         }
-        @Test
-        public void exaplle22(){
-        wysokoscSkoku();
-        }
-        //metoda z danymi statycznymi - nie przyjmuje argumentow
-        double wysokoscSkoku () {
-        double silaWybicia = (1.34*2.23);
-        double odleglsoc = 3.33;
-        double x = silaWybicia*odleglsoc;
-            System.out.print(x);
-        return x;
 
 
         }
 
 
-    }
+
 
 
 
