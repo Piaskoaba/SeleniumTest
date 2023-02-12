@@ -1,4 +1,4 @@
-public class Kwadrat1 {
+public class Kwadrat1 extends Trojkat {
 
 
     public double poleKwadratu(double bokKwadratu) {
