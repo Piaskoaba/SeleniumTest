@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class BEMIDataBase {
 
-    @Test
+
     public void example() {
         double equalBmi = partOfBemi(95, 188);
         String text = " Twoje BMI wynosi " + equalBmi;
