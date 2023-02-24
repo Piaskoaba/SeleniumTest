@@ -1,4 +1,4 @@
-public class Trojkat {
+public class Trojkat () {
 
    public double poleTrojkata (double dlugoscPodstawy, double wysokosc){
        double obliczPoleTrojkata = (dlugoscPodstawy * wysokosc)/2;
@@ -23,3 +23,4 @@ public class Trojkat {
         return obliczPoleTrojkata2;
     }
 }
+
