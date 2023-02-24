@@ -1,14 +1,13 @@
-import org.junit.Test;
+import java.lang.String;
 
 public class Day3 {
     public static void main(String[] args) {
 
-        int a = 1;
-        int b = 2;
-        int c = 3;
+        int a = 3;
+        int b = 27;
+        int c = 100;
 
-
-        String text = "Największa liczbza to: ";
+String text = "Największa liczba to: ";
 
         if (a > b && a > c) {
             System.out.println(text + a);

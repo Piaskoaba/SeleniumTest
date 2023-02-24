@@ -1,4 +1,6 @@
-public class Trojkat () {
+import java.lang.String;
+
+public class Trojkat {
 
    public double poleTrojkata (double dlugoscPodstawy, double wysokosc){
        double obliczPoleTrojkata = (dlugoscPodstawy * wysokosc)/2;
