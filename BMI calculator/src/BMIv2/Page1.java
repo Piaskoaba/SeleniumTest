@@ -14,8 +14,8 @@ public class Page1 {
 
         double choose = scan.nextInt();
 
-        System.out.println(" Enter values 1-Weight " +
-                "2-Height");
+        System.out.println(" Enter values 1-Weight (kg) " +
+                "2-Height (cm)");
         double weight = scan.nextDouble();
         double height = scan.nextDouble();
 
