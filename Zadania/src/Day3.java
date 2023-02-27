@@ -4,7 +4,7 @@ public class Day3 {
     public static void main(String[] args) {
 
         int a = 3;
-        int b = 27;
+        int b = 101;
         int c = 100;
 
 String text = "Największa liczba to: ";
