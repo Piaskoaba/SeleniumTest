@@ -16,6 +16,9 @@ public class Zad3part2 {
             double podatek = podatekPonizejProgu + podatekPowyzejProgu;
             System.out.println("Podatek wynosi : " + podatek);
         }
-
     }
+
+
+
+
 }
