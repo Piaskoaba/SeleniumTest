@@ -2,15 +2,15 @@ public class Zad1 {
     public static void main(String[] args) {
 
         int age = 33;
-        double weight = 95.5;
-        double height = 188;
+        float weight = 95.5f;
+        float height = 1.88f;
         System.out.println(age + " lat " + weight + " kg " + height + " cm .");
 
-        double BMI = weight / (height * 2) * 100;
+        float BMI = weight / (height * height);
 
         System.out.println(" BMI = " + BMI);
 
-        int BMI2 = (int) weight / (int) ((height * 2) * 100);
+        int BMI2 = (int) weight / (int) (height * height);
         System.out.println(" BMI 2  = : " + BMI2);
 
 
