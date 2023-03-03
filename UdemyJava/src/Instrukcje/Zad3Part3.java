@@ -1,3 +1,5 @@
+package Instrukcje;
+
 public class Zad3Part3 {
     public static void main(String args[]) {
 

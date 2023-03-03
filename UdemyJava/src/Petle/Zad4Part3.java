@@ -1,3 +1,5 @@
+package Petle;
+
 public class Zad4Part3 {
     public static void main(String args[]) {
 

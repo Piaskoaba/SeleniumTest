@@ -1,3 +1,5 @@
+package Instrukcje;
+
 public class InstrukcjeWarunkowe {
 
     public static void main(String args[]){

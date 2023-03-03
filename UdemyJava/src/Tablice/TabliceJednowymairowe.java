@@ -1,3 +1,5 @@
+package Tablice;
+
 public class TabliceJednowymairowe {
     public static void main(String[] args) {
 

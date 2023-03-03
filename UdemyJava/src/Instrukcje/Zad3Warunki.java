@@ -1,3 +1,5 @@
+package Instrukcje;
+
 public class Zad3Warunki {
     public static void main(String args[]) {
 

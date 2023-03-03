@@ -1,3 +1,4 @@
+package Instrukcje;
 
 public class WielokrotnyWyborSwitchCase {
     public static void main(String args[]){

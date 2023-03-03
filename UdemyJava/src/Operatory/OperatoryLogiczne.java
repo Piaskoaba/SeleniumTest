@@ -1,3 +1,5 @@
+package Operatory;
+
 public class OperatoryLogiczne {
     public static void main(String args[]){
 

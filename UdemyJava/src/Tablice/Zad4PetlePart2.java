@@ -1,3 +1,5 @@
+package Tablice;
+
 public class Zad4PetlePart2 {
     public static void main(String args[]) {
         int a = 23;

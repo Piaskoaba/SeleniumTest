@@ -1,8 +1,10 @@
+package Petle;
+
 public class PetleLoops {
 
     public static void main(String args[]) {
 
-       /* int count;
+       /*\ int count;
         for (count=1; count <=10; count++){   //inkrementacja +1
             System.out.println(" Tekst " + count);
         }

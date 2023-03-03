@@ -1,3 +1,5 @@
+package Tablice;
+
 public class Zad2TabliceJiD {
     public static void main(String[] args) {
 

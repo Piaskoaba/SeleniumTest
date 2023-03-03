@@ -1,3 +1,5 @@
+package Petle;
+
 public class TablicaPetla {
     public static void main(String args[]) {
 

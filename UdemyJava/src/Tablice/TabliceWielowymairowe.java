@@ -1,3 +1,5 @@
+package Tablice;
+
 public class TabliceWielowymairowe {
     public static void main(String[] args) {
 
@@ -11,7 +13,7 @@ public class TabliceWielowymairowe {
                 {4,8,10,36,25,41}
         };         //tablica o dwóch wierszach, 3 elementach
 
-        System.out.println("[0][0]: " + table2 [0][0]); //1
+        System.out.println("[0][0]: " + table2 [0][0]); //1 w tabeli
         System.out.println("[1][2]: " + table2 [1][2]); //10
         System.out.println("[0][2]: " + table2 [0][2]); //3
         System.out.println("[0][2]: " + table2 [1][5]);
