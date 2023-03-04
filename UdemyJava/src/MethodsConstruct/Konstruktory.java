@@ -5,6 +5,7 @@ public class Konstruktory {
 
     int pole1;
     int pole2;
+    int pole3;
 
 
 
@@ -21,11 +22,20 @@ Konstruktory (int value1) {         // z jedna wartoscia
 }
 
 Konstruktory(int valuePole1, int valuePole2) {
-    System.out.println(" Konstruktor z dwoma wartosciami: " );
+    System.out.println(" Konstruktor z dwoma wartosciami: ");
     pole1 = valuePole1;
     pole2 = valuePole2;
 
 }
+    Konstruktory (int val1, int val2, int val3) {
+        pole1 = val1;
+        pole2 = val2;
+        pole3 = val3;
 
+    }
 }
+
+
+
+
 

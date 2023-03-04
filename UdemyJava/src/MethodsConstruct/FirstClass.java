@@ -24,10 +24,11 @@ public class FirstClass {
 
         secondClass.lowOrHigh(false,-5);
 
-        Konstruktory konstruktory = new Konstruktory(321,463); //w klasie Konstruktory sa 3 konstruktory, pusty, z 1 watoiscia, z dwiema. Dlatego mozna uzupelniac taka iloscia danych 0/1/2
+        Konstruktory konstruktory = new Konstruktory(321); //w klasie Konstruktory sa 3 konstruktory, pusty, z 1 watoiscia, z dwiema. Dlatego mozna uzupelniac taka iloscia danych 0/1/2
         System.out.println(konstruktory.pole1);
         System.out.println(konstruktory.pole2);
-
+        System.out.println(konstruktory.pole3);
+        System.out.println(konstruktory.pole1 + konstruktory.pole2 + konstruktory.pole3);
 
 
         Construct construct = new Construct();  // konstruktor pusty/domyslny
