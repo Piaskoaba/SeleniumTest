@@ -1,4 +1,4 @@
-package Methods;
+package MethodsConstruct;
 
 public class SecondClass {
 
@@ -6,7 +6,7 @@ public class SecondClass {
         System.out.println(" Do nothing :");
     }
 
-    void ReturnMethod(int number, int answer, char letter) {
+    void firstMethod(int number, int answer, char letter) {
         String returnAnswer = "Bartosz";
 
 
@@ -43,7 +43,7 @@ public class SecondClass {
     }
 
     int lowOrHigh(boolean sayWhat, int number) {
-        sayWhat = true;
+
         if (number > 0) {
             System.out.println("IsItPositive: " + number);
         } else {
@@ -51,7 +51,9 @@ public class SecondClass {
         }
         return number;
     }
-    }
+
+}
+
 
 
 

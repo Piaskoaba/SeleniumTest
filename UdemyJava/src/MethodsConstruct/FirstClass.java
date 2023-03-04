@@ -1,4 +1,4 @@
-package Methods;
+package MethodsConstruct;
 
 public class FirstClass {
     public static void main(String args[]){
@@ -7,7 +7,8 @@ public class FirstClass {
 
         secondClass.TestMethod();
 
-        secondClass.ReturnMethod(5,4,'B');
+        secondClass.firstMethod(1,3,'B');
+        System.out.println("Tekst to: " );
 
         secondClass.nextMethod(false,1);
 
@@ -21,7 +22,15 @@ public class FirstClass {
 
         System.out.println(" Logical value : " + secondClass.swapValue(false));
 
-        secondClass.lowOrHigh(true,-5);
+        secondClass.lowOrHigh(false,-5);
+
+        Konstruktory konstruktory = new Konstruktory(321,463); //w klasie Konstruktory sa 3 konstruktory, pusty, z 1 watoiscia, z dwiema. Dlatego mozna uzupelniac taka iloscia danych 0/1/2
+        System.out.println(konstruktory.pole1);
+        System.out.println(konstruktory.pole2);
+
+
+
+        Construct construct = new Construct();  // konstruktor pusty/domyslny
 
     }
 }
