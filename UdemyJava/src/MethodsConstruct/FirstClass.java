@@ -32,6 +32,9 @@ public class FirstClass {
 
 
         Construct construct = new Construct();  // konstruktor pusty/domyslny
+        construct.prizeSummary(99.23, 1369);
+        //System.out.println(construct.prizeSummary(0.23,49));
+
 
     }
 }
