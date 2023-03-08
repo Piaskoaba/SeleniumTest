@@ -6,6 +6,9 @@ public class KlasaStaticFinal {
 
     public final int poleFinal =150;
 
+    public static final String JAKIS_TEKST = "Dowolny tekst : ";
+
+
     public static void metodaStatyczna(){
         System.out.println("wypisałem z metody statycznej: ");
 

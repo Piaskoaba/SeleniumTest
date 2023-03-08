@@ -24,7 +24,9 @@ public class MainPolaStaticFinal {
 
         System.out.println(obiekt.poleFinal);
 
-
+        //static final
+        System.out.println(KlasaStaticFinal.JAKIS_TEKST);       //przydaje sie przy wartosciach niezmiennych np. liczba PI
+                                                                //ze statycznej metody nie mozemy odwolac sie do statycznego pola
 
 
 
