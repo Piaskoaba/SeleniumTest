@@ -27,7 +27,11 @@ public class MainZad {
         System.out.println( " ZADANIE 3" );
 
         Zadanie3 zadanie3 = new Zadanie3();
-        System.out.println(Zadanie3.obwodKola(4));
+        try {
+            System.out.println(Zadanie3.obwodKola(4));
+        } catch (ZabezpieczenieExpection e) {
+            throw new RuntimeException(e);
+        }
 
 
     }
