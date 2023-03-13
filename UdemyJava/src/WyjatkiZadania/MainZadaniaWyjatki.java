@@ -19,6 +19,17 @@ W metodzie main napisz kawałek kodu, który będzie dzielił liczby a/b (typu i
         System.out.println("Nie wolno dzielić przez 0!");
 
         }
+        try {
+            System.out.println("Wynik z metody : " + wynikDzielenia(10,0));
+        } catch (Przez0Exception e) {
+            System.out.println(" Nie dzielimy przez 0 ");
+        }
+    }
 
+    public static double wynikDzielenia (double a, double b) throws Przez0Exception {
+        if (b==0) {
+            throw new Przez0Exception();
+        }
+        return a/b;
     }
 }
