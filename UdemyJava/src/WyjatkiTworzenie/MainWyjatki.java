@@ -10,7 +10,7 @@ public class MainWyjatki {
         try {
             user.wprowadzEmail("jan.kowalski/example.com");
             System.out.println("Adres mailowy wprowadzony poprawnie" );
-            user.setPassword("qwerty123tajne");    // ppm surround by try catch
+            user.setPassword("qwerty123tajne");    // clt + enter surround by try catch
             System.out.println("Haslo ustawione" );
         } catch (HasloException e) {
             System.out.println(" Hasło nie jest bezpieczne...");
