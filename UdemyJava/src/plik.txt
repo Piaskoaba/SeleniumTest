@@ -1,0 +1,5 @@
+Kilka linijek.
+Test sprawdzenie.
+Zamieszczone w liniach
+obecnej oraz
+nastepnej linii

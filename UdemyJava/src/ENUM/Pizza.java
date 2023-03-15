@@ -3,7 +3,7 @@ package ENUM;
 public enum Pizza {
 
 
-    MALA(20,19.99f,),
+    MALA(20,19.99f),
     DUZA(34,29.99f),
     FAMILIJNA(42,39.99f),
     XXL(50,59.99f);
